@@ -24,4 +24,7 @@ export default {
 ::-webkit-scrollbar-thumb {
   background: rgb(168, 187, 224);
 }
+* {
+  font-family: "Comfortaa", cursive;
+}
 </style>

@@ -7,6 +7,9 @@
         <img src="@/assets/logo.png" width="50" alt />
       </router-link>
     </li>
+    <li class="nav-link">
+      <LanguageSwitcher />
+    </li>
     <li class="nav-item">
       <a class="nav-link" href="#about" v-smooth-scroll>About</a>
     </li>
@@ -26,8 +29,6 @@
             name: 'Services'
               }">Services</router-link>
     </li>
-
-    <LanguageSwitcher />
   </ul>
 </template>
 

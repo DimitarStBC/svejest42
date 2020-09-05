@@ -2,7 +2,7 @@
   <div>
     <div class="homeSection d-flex justify-content-between">
       <div class="d-flex flex-column align-items-start">
-        <h1 class="itemMargin">Svejest 42</h1>
+        <h1 class="itemMargin">Свежест 42</h1>
         <h2
           class="itemMargin"
         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, mollitia!</h2>
