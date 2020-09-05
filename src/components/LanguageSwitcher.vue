@@ -1,8 +1,8 @@
 <template>
-  <ul class="languageMenu">
-    <li id="enLi" v-on:click="changeActiveEn()" @click="setLocale('en')">ENG</li>|
-    <li style="color: #3D853C" id="bgLi" v-on:click="changeActiveBg()" @click="setLocale('bg')">BUL</li>|
-    <li id="ruLi" v-on:click="changeActiveRu()" @click="setLocale('ru')">RUS</li>
+  <ul class="d-flex justify-content-center">
+    <li @click="setLocale('en')">ENG</li>|
+    <li @click="setLocale('bg')">BUL</li>|
+    <li @click="setLocale('ru')">RUS</li>
   </ul>
 </template>
 

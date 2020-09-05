@@ -24,6 +24,14 @@ const routes = [
         path: '/',
         name: 'Landing',
         component: Landing
+      },
+      {
+        path: 'services',
+        name: 'Services'
+      },
+      {
+        path: 'blog',
+        name: "Blog"
       }
     ]
   }

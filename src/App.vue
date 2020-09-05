@@ -1,20 +1,18 @@
 <template>
-  <div id="app container">
-    <div>
-      <LanguageSwitcher />
-    </div>
+  <div id="app" class="container">
+    <Navigation />
 
     <router-view />
   </div>
 </template>
 
 <script>
-import LanguageSwitcher from "./components/LanguageSwitcher";
+import Navigation from "./components/Navigation";
 
 export default {
   name: "app",
   components: {
-    LanguageSwitcher,
+    Navigation,
   },
 };
 </script>
