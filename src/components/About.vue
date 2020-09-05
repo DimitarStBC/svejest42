@@ -19,6 +19,7 @@
       </div>
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatum aliquid voluptatem cum dolores ratione. Veniam voluptatem ex impedit a!</p>
+        <img class="mb-3 imageRound" src="@/assets/Svejest42.jpg" alt />
         <a href class="btn btn-outline-primary">Read more</a>
       </div>
     </div>
@@ -26,6 +27,9 @@
 </template>
 
 <style scoped>
+.imageRound {
+  border-radius: 5px;
+}
 .aboutBA::before {
   margin-right: 5px;
   content: "";

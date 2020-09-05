@@ -62,16 +62,21 @@
     <div id="about">
       <About />
     </div>
+    <div id="pricing">
+      <Pricing />
+    </div>
   </div>
 </template>
 
 <script>
 import About from "@/components/About";
+import Pricing from "@/components/Pricing";
 
 export default {
   name: "Home",
   components: {
     About,
+    Pricing,
   },
   data() {
     return {
