@@ -1,6 +1,6 @@
 <template>
   <div class>
-    <h2 class="d-flex justify-content-center align-items-center m-5 aboutBA">About</h2>
+    <h1 class="d-flex justify-content-center align-items-center m-5 aboutBA">About</h1>
     <div class="d-flex mr-5 flex-row">
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatum aliquid voluptatem cum dolores ratione. Veniam voluptatem ex impedit a!</p>

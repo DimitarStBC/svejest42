@@ -98,7 +98,7 @@ export default {
   width: 100%;
 }
 .imgWidth img {
-  max-width: 150px;
+  height: 70px;
 }
 .homeSection {
   margin-top: 40px;
