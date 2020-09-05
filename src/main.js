@@ -5,6 +5,8 @@ import './plugins/bootstrap-vue'
 import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
+import VueSmoothScroll from 'vue2-smooth-scroll'
+Vue.use(VueSmoothScroll)
 
 // import './icons.js'
 
