@@ -1,0 +1,12 @@
+{
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "Prices": "Prices",
+    "Contact": "Contact Us",
+    "Blog": "Blog",
+    "HomeComp": {
+        "invest": "Invest",
+        "freeTime": "in your free time"
+    }
+}
