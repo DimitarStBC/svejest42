@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="homeSection d-flex justify-content-between">
+    <div class="homeSection d-flex align-items-start justify-content-between">
       <div class="d-flex flex-column align-items-start">
         <h1 class="itemMargin">Свежест 42</h1>
         <h2
@@ -13,10 +13,10 @@
       </div>
     </div>
 
-    <!-- corousel -->
+    <!--     
     <div class="marCorousel">
       <b-carousel class="d-flex align-items-center" :interval="3000">
-        <!-- first Row -->
+        
         <b-carousel-slide>
           <template v-slot:img>
             <b-card-group class="d-flex justify-content-around align-items-center imgWidth">
@@ -29,7 +29,7 @@
             </b-card-group>
           </template>
         </b-carousel-slide>
-        <!-- second Row -->
+       
         <b-carousel-slide>
           <template v-slot:img>
             <b-card-group class="d-flex justify-content-around align-items-center imgWidth">
@@ -42,7 +42,7 @@
             </b-card-group>
           </template>
         </b-carousel-slide>
-        <!-- third Row -->
+        
         <b-carousel-slide>
           <template v-slot:img>
             <b-card-group class="d-flex justify-content-around align-items-center imgWidth">
@@ -56,7 +56,7 @@
           </template>
         </b-carousel-slide>
       </b-carousel>
-    </div>
+    </div>-->
 
     <!-- about -->
     <div id="about">
@@ -99,6 +99,9 @@ export default {
 </script>
 
 <style scoped>
+.homeSection {
+  height: 80vh;
+}
 .imgWidth {
   width: 100%;
 }
@@ -106,7 +109,7 @@ export default {
   height: 70px;
 }
 .homeSection {
-  margin-top: 40px;
+  padding-top: 40px;
 }
 .marCorousel {
   height: 150px;
