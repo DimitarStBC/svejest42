@@ -3,32 +3,31 @@
     <h1 class="aboutBA d-flex justify-content-center align-items-center m-5">Pricing</h1>
     <div class="d-flex flex-wrap justify-content-center align-items-center">
       <div class="box d-flex flex-column justify-content-around m-2">
-        <h2>Основно почистване</h2>
-        <h3>$3/m2</h3>
+        <h2>Дълбоко почистване</h2>
+        <h3>
+          <span>3 лв.</span>/m2
+        </h3>
         <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
+          <div class="d-flex flex-row align-items-center">
+            <i class="fas mr-2 fa-clipboard-check"></i>
+            <li>Lorem, ipsum dolor.</li>
+          </div>
         </ul>
         <a href class="btn btn-primary">Read more</a>
       </div>
+    </div>
+    <h2 class="d-flex justify-content-center align-items-center m-5">За бизнеса</h2>
+    <div class="d-flex flex-wrap justify-content-center align-items-center">
       <div class="box d-flex flex-column justify-content-around m-2">
-        <h2>Основно почистване</h2>
-        <h3>$3/m2</h3>
+        <h2>Почистване на плочки</h2>
+        <h3>
+          <span>3 лв.</span>/m2
+        </h3>
         <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-        </ul>
-        <a href class="btn btn-primary">Read more</a>
-      </div>
-      <div class="box d-flex flex-column justify-content-around m-2">
-        <h2>Основно почистване</h2>
-        <h3>$3/m2</h3>
-        <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
+          <div class="d-flex flex-row align-items-center">
+            <i class="fas mr-2 fa-clipboard-check"></i>
+            <li>Lorem, ipsum dolor.</li>
+          </div>
         </ul>
         <a href class="btn btn-primary">Read more</a>
       </div>
@@ -36,62 +35,15 @@
     <h2 class="d-flex justify-content-center align-items-center m-5">Отделни пакети</h2>
     <div class="d-flex flex-wrap justify-content-center align-items-center">
       <div class="box d-flex flex-column justify-content-around m-2">
-        <h2>Основно почистване</h2>
-        <h3>$3/m2</h3>
+        <h2>Кухня</h2>
+        <h3>
+          <span>3 лв.</span>/m2
+        </h3>
         <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-        </ul>
-        <a href class="btn btn-primary">Read more</a>
-      </div>
-      <div class="box d-flex flex-column justify-content-around m-2">
-        <h2>Основно почистване</h2>
-        <h3>$3/m2</h3>
-        <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-        </ul>
-        <a href class="btn btn-primary">Read more</a>
-      </div>
-      <div class="box d-flex flex-column justify-content-around m-2">
-        <h2>Основно почистване</h2>
-        <h3>$3/m2</h3>
-        <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-        </ul>
-        <a href class="btn btn-primary">Read more</a>
-      </div>
-      <div class="box d-flex flex-column justify-content-around m-2">
-        <h2>Основно почистване</h2>
-        <h3>$3/m2</h3>
-        <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-        </ul>
-        <a href class="btn btn-primary">Read more</a>
-      </div>
-      <div class="box d-flex flex-column justify-content-around m-2">
-        <h2>Основно почистване</h2>
-        <h3>$3/m2</h3>
-        <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-        </ul>
-        <a href class="btn btn-primary">Read more</a>
-      </div>
-      <div class="box d-flex flex-column justify-content-around m-2">
-        <h2>Основно почистване</h2>
-        <h3>$3/m2</h3>
-        <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
+          <div class="d-flex flex-row align-items-center">
+            <i class="fas mr-2 fa-clipboard-check"></i>
+            <li>Lorem, ipsum dolor.</li>
+          </div>
         </ul>
         <a href class="btn btn-primary">Read more</a>
       </div>
@@ -100,6 +52,21 @@
 </template>
 
 <style scoped>
+.box {
+  color: rgb(99, 99, 99);
+}
+.box .fas {
+  color: #3498db;
+}
+.box ul li {
+  list-style-type: none;
+}
+.box h2 {
+  color: #3498db;
+}
+span {
+  color: #3498db;
+}
 .aboutBA::before {
   margin-right: 5px;
   content: "";

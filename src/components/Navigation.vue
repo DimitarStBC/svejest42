@@ -46,7 +46,7 @@
 
  <script>
 import LanguageSwitcher from "../components/LanguageSwitcher";
-import $ from "jquery";
+import * as $ from "jquery";
 
 export default {
   components: {
@@ -57,16 +57,20 @@ export default {
   },
   methods: {
     scrollFix: function (hashbang) {
-      setTimeout(
-        () =>
-          $("html, body").animate(
-            {
-              scrollTop: $(hashbang).offset().top,
-            },
-            800
-          ),
-        1
-      );
+      try {
+        setTimeout(
+          () =>
+            $("html, body").animate(
+              {
+                scrollTop: $(hashbang).offset().top,
+              },
+              800
+            ),
+          1
+        );
+      } catch (error) {
+        error;
+      }
     },
   },
 };

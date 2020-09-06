@@ -65,18 +65,23 @@
     <div id="pricing">
       <Pricing />
     </div>
+    <div id="contact">
+      <Contact />
+    </div>
   </div>
 </template>
 
 <script>
 import About from "@/components/About";
 import Pricing from "@/components/Pricing";
+import Contact from "@/components/Contact";
 
 export default {
   name: "Home",
   components: {
     About,
     Pricing,
+    Contact,
   },
   data() {
     return {
